@@ -15,23 +15,13 @@ namespace MVC_ComponentesCodeFirst
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            //builder.Services.AddDbContext<MVC_ComponentesCodeFirstContext>(options =>
-            //    options.UseSqlServer(builder.Configuration.GetConnectionString("MVC_ComponentesCodeFirstContext") ?? throw new InvalidOperationException("Connection string 'MVC_ComponentesCodeFirstContext' not found.")));
-            
-            var path = Directory.GetCurrentDirectory();
 
             builder.Services.AddDbContext<OrdenadoresContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("OrdenadoresContext")
-                    ?.Replace("[DataDirectory]", path)));
+                    ?.Replace("[DataDirectory]", Directory.GetCurrentDirectory())));
 
             LogManager.Setup().LoadConfigurationFromFile(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
             builder.Services.AddSingleton<ILoggerManager, LoggerManager>();
-
-            //builder.Services.AddScoped<IComponenteRepository, ComponenteRepository>();
-            //builder.Services.AddScoped<IOrdenadorRepository, OrdenadoresRepository>();
-            //builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
-            //builder.Services.AddScoped<IPedidoRepository, PedidoRepositroy>();
-            //builder.Services.AddScoped<IFacturasRepository, FacturasRepository>();
 
             // Create the retry policy we want
             var retryPolicy = HttpPolicyExtensions.HandleTransientHttpError() // HttpRequestException, 5XX and 408
