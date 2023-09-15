@@ -1,0 +1,16 @@
+2023-08-15 19:15:54.0048 DEBUG Ordenador eliminado. Descripcion: OrdenadorMaria
+2023-08-15 19:15:56.6492 DEBUG Ordenador eliminado. Descripcion: OrdenadorAndres
+2023-08-15 19:19:42.3476 DEBUG Ordenador eliminado. Descripcion: OrdenadorMaria
+2023-08-15 19:19:46.7375 DEBUG Ordenador eliminado. Descripcion: OrdenadorTiburcioIi
+2023-08-15 19:19:48.9700 DEBUG Ordenador eliminado. Descripcion: OrdenadorAndresCf
+2023-08-15 19:19:50.8205 DEBUG Ordenador eliminado. Descripcion: OrdenadorAndres
+2023-08-15 19:30:25.6469 DEBUG Ordenador eliminado. Descripcion: OrdenadorMaria
+2023-08-15 19:30:28.0539 DEBUG Ordenador eliminado. Descripcion: OrdenadorAndres
+2023-08-15 19:30:30.0238 DEBUG Ordenador eliminado. Descripcion: OrdenadorAndresCf
+2023-08-15 19:30:32.0738 DEBUG Ordenador eliminado. Descripcion: OrdenadorTiburcioIi
+2023-08-15 19:51:22.5351 DEBUG Ordenador eliminado. Descripcion: OrdenadorTiburcioIi
+2023-08-15 19:51:26.5233 DEBUG Ordenador eliminado. Descripcion: OrdenadorAndresCf
+2023-08-15 19:51:28.3657 DEBUG Ordenador eliminado. Descripcion: OrdenadorAndres
+2023-08-15 19:51:30.4143 DEBUG Ordenador eliminado. Descripcion: OrdenadorMaria
+2023-08-15 19:54:15.6463 DEBUG Componente añadido. Serie: jdflj, descripcion: Procesador prueba
+2023-08-15 19:54:15.7331 ERROR Error al añadir ordenador. Message: El ordenador no es valido

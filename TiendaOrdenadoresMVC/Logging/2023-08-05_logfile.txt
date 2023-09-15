@@ -1,0 +1,12 @@
+2023-08-05 18:56:00.0538 DEBUG Componente eliminado. Serie: 789_XCS, descripcion: Procesador Intel i7
+2023-08-05 18:56:03.1875 DEBUG Componente eliminado. Serie: 789_XCD, descripcion: Procesador Intel i7
+2023-08-05 18:56:05.3227 DEBUG Componente eliminado. Serie: 789_XCT, descripcion: Procesador Intel i7
+2023-08-05 18:56:07.4290 DEBUG Componente eliminado. Serie: 879FH, descripcion: Banco de memoria SDRAM
+2023-08-05 18:56:09.1514 DEBUG Componente eliminado. Serie: 879FH_L, descripcion: Banco de memoria SDRAM
+2023-08-05 18:56:11.0631 DEBUG Componente eliminado. Serie: 879FH_T, descripcion: Banco de memoria SDRAM
+2023-08-05 18:56:12.9263 DEBUG Componente eliminado. Serie: 789_XX, descripcion: Disco Duro Scan Disk
+2023-08-05 18:56:14.6442 DEBUG Componente eliminado. Serie: 789_XX_2, descripcion: Disco Duro Scan Disk
+2023-08-05 18:56:16.6850 DEBUG Componente eliminado. Serie: 789_XX_3, descripcion: Disco Duro Scan Disk
+2023-08-05 20:06:07.7696 DEBUG Componente actualizado. Serie: 789_XCS, descripcion: Procesador Intel i7
+2023-08-05 20:06:16.0642 DEBUG Componente actualizado. Serie: 789_XCD, descripcion: Procesador Intel i7
+2023-08-05 20:06:24.1503 DEBUG Componente actualizado. Serie: 789_XCT, descripcion: Procesador Intel i7

@@ -1,0 +1,5 @@
+2023-08-17 11:35:04.3006 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-17 11:35:08.6051 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-17 11:35:17.5483 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-17 11:35:26.8303 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-17 11:35:42.6639 ERROR Error al añadir componente. Message: El componente no es valido

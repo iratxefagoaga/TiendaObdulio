@@ -1,0 +1,18 @@
+2023-08-20 16:26:25.2896 ERROR Error al añadir ordenador. Message: El ordenador no es valido
+2023-08-20 16:26:32.4153 ERROR Error al añadir ordenador. Message: El ordenador no es valido
+2023-08-20 16:29:15.2318 DEBUG Ordenador añadido. Descripcion: Prueba ordenador
+2023-08-20 16:30:45.6854 DEBUG Ordenador añadido. Descripcion: Ordenador prueba
+2023-08-20 16:50:59.3563 DEBUG Componente añadido. Serie: afdsf, descripcion: fasdfa
+2023-08-20 16:51:04.8264 DEBUG Componente eliminado. Serie: afdsf, descripcion: fasdfa
+2023-08-20 16:51:08.0303 DEBUG Componente eliminado. Serie: 789-XCS, descripcion: Procesador Intel i7
+2023-08-20 16:51:08.0829 ERROR Error al eliminar componente. Message: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+2023-08-20 19:57:59.4402 DEBUG Cliente eliminado. Nombre: Juan
+2023-08-20 19:57:59.5516 ERROR Error al eliminar cliente. Message: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+2023-08-20 19:58:05.9408 DEBUG Cliente eliminado. Nombre: Maria
+2023-08-20 19:58:05.9408 ERROR Error al eliminar cliente. Message: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+2023-08-20 19:58:08.9695 DEBUG Cliente eliminado. Nombre: Mario
+2023-08-20 19:59:20.9193 DEBUG Componente eliminado. Serie: 789-XCS, descripcion: Procesador Intel i7
+2023-08-20 19:59:21.1353 ERROR Error al eliminar componente. Message: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+2023-08-20 20:02:24.8020 DEBUG Componente eliminado. Serie: 879-FH, descripcion: Banco de Memoria SDRAM
+2023-08-20 20:02:24.9192 DEBUG Componente eliminado. Serie: 789-XX, descripcion: DiscoDuro SanDisk
+2023-08-20 20:14:08.3568 DEBUG Componente añadido. Serie: fdgfg32, descripcion: fgfggdfg

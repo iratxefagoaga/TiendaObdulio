@@ -1,0 +1,10 @@
+2023-08-03 10:43:20.8150 DEBUG Componente eliminado. Serie: 789-XCS, descripcion: Procesador Intel I7
+2023-08-03 10:43:24.7213 DEBUG Componente eliminado. Serie: 789-XCT, descripcion: Procesador Intel i7
+2023-08-03 10:43:27.0692 DEBUG Componente eliminado. Serie: 789-XCD, descripcion: Procesador Intel i7
+2023-08-03 10:43:29.2973 DEBUG Componente eliminado. Serie: AAA, descripcion: AAAA
+2023-08-03 10:43:32.4896 DEBUG Componente eliminado. Serie: BAKJDF, descripcion: BBB
+2023-08-03 11:00:52.8980 DEBUG Componente eliminado. Serie: Procesador789Xcs, descripcion: Procesador789Xcs
+2023-08-03 14:18:21.3737 DEBUG Componente añadido. Serie: Nuevo, descripcion: Nuevo
+2023-08-03 14:31:09.3527 DEBUG Componente eliminado. Serie: Nuevo, descripcion: Nuevo
+2023-08-03 14:55:21.9393 DEBUG Componente actualizado. Serie: Procesador789Xcd, descripcion: Procesador Intel i7
+2023-08-03 14:55:37.6380 DEBUG Componente eliminado. Serie: Disco788Fg3, descripcion: Disco Mecánico Patatin

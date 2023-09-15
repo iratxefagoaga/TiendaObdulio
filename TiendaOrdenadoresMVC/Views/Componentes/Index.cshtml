@@ -1,0 +1,59 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<MVC_ComponentesCodeFirst.Models.Componente>
+
+@{
+    ViewData["Title"] = "Componentes";
+}
+
+<h1>Componentes</h1>
+
+<p>
+    <a class="my-class" asp-action="Create">Crear un componente nuevo</a>
+    <div class="actions">
+        <a href="javascript:(function(){document.tableForm.submit();return void(0);})()" title="Eliminar todos los componentes seleccionados">
+            <img src="~/images/eliminar.png" height="20px" />
+        </a>
+    </div>
+</p>
+@{ Html.BeginForm("BatchDelete", "Componentes", FormMethod.Post, new { name = "tableForm" }); }
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            Seleccionar
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Serie)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Calor)
+            </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                <input type="checkbox" name="deleteInputs" value="@item.Id"/>
+            </td>
+            @await Component.InvokeAsync("Componente", item.Id)
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" title="Editar"> <img src="~/images/editar.png" height="20px"/></a> |
+                <a asp-action="Details" asp-route-id="@item.Id" title="Detalles"><img src="~/images/detalles.png" height="20px"/></a> |
+                <a asp-action="Delete" asp-route-id="@item.Id" title="Eliminar"><img src="~/images/eliminar.png" height="20px"/></a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+@{
+    Html.EndForm();
+}

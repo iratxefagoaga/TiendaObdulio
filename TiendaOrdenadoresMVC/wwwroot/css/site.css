@@ -1,0 +1,156 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+a.my-class {
+    color: black;
+    float:right;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: lightgrey;
+    border-radius: 25px;
+    padding:10px;
+}
+.imageButton {
+    background-color: white;
+    border: thin;
+}
+.centered {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+/*img
+{
+    margin: 0px 10px 30px 20px;
+
+}*/
+#picture0 {
+    display: flex;
+    width: 250px;
+    height: 400px;
+    background-image: url(../images/Componentes.jpg);
+    border: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+}
+
+    #picture0:hover {
+        background-image: url('../images/Titulo componentes.jpg');
+        background-repeat: no-repeat;
+    }
+#picture1 {
+    display: flex;
+    width: 250px;
+    height: 400px;
+    background-image: url(../images/Ordenadores.jpg);
+    border: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+}
+
+    #picture1:hover {
+        background-image: url('../images/Titulo ordenadores.jpg');
+        background-repeat: no-repeat;
+    }
+#picture2 {
+    display: flex;
+    width: 250px;
+    height: 400px;
+    background-image: url(../images/Pedidos.jpg);
+    border: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+}
+
+    #picture2:hover {
+        background-image: url('../images/Titulo pedidos.jpg');
+        background-repeat: no-repeat;
+    }
+#picture3 {
+    display: flex;
+    width: 250px;
+    height: 400px;
+    background-image: url(../images/Facturas.jpg);
+    border: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+}
+
+    #picture3:hover {
+        background-image: url("../images/Titulo facturas.jpg");
+        background-repeat: no-repeat;
+    }
+#picture4 {
+    display: flex;
+    width: 250px;
+    height: 400px;
+    background-image: url(../images/Clientes.jpg);
+    border: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+}
+
+    #picture4:hover {
+        background-image: url("../images/Titulo clientes.jpg");
+        background-repeat: no-repeat;
+    }
+.contenedor-imagenes {
+    display:flex;
+    vertical-align:central;
+}
+footer {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: black;
+}
+.navbar-nav > .active > a {
+    border-bottom: 4px solid currentColor;
+}
+
+.nav-item > a:hover {
+    border-bottom: 4px solid currentColor;
+}
+
+

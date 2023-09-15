@@ -1,0 +1,16 @@
+2023-09-07 10:24:26.5348 ERROR Error al obtener lista de clientes. Message: An attempt to attach an auto-named database for file [DataDirectory]\App_Data\TiendaOrdenadoresDatabase.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.
+2023-09-07 10:27:58.4323 ERROR Error al obtener lista de clientes. Message: Could not find stored procedure 'spGetAllStudent'.
+2023-09-07 10:32:19.9435 ERROR Error al obtener lista de clientes. Message: Could not find stored procedure 'SELECT * FROM Clientes'.
+2023-09-07 10:34:24.5000 ERROR Error al obtener lista de clientes. Message: The CommandType enumeration value, 512, is not supported by the .NET Framework SqlClient Data Provider. (Parameter 'CommandType')
+2023-09-07 11:00:42.1201 ERROR Error al eliminar cliente. Message: Invalid column name 'Juan'.
+Invalid column name 'Perez2'.
+The multi-part identifier "juanperez@gmail.com" could not be bound.
+Invalid column name 'contraseñaJuan'.
+2023-09-07 11:20:29.1917 DEBUG Cliente eliminado. Nombre: MarioCambiado
+2023-09-07 12:10:20.2564 ERROR Error al obtener lista de componentes. Message: Description
+2023-09-07 12:11:03.0193 ERROR Error al obtener lista de componentes. Message: Input string was not in a correct format.
+2023-09-07 12:13:12.3191 ERROR Error al obtener lista de componentes. Message: Input string was not in a correct format.
+2023-09-07 12:22:51.1935 DEBUG Componente eliminado. Serie: 789-XX-3
+2023-09-07 13:21:11.3364 ERROR Error al obtener lista de facturas. Message: Description
+2023-09-07 13:22:18.1247 ERROR Error al eliminar factura. Message: Incorrect syntax near '9'.
+2023-09-07 13:26:19.7734 ERROR Error al eliminar factura. Message: Conversion failed when converting date and/or time from character string.

@@ -1,0 +1,22 @@
+2023-09-08 11:03:23.8197 ERROR Error al obtener lista de ordenadors. Message: Incorrect syntax near the keyword 'FROM'.
+2023-09-08 11:03:25.0591 ERROR Error al obtener lista de ordenadors. Message: Incorrect syntax near the keyword 'FROM'.
+2023-09-08 11:03:27.0933 ERROR Error al obtener lista de ordenadors. Message: Incorrect syntax near the keyword 'FROM'.
+2023-09-08 11:03:30.1262 ERROR Error al obtener lista de ordenadors. Message: Incorrect syntax near the keyword 'FROM'.
+2023-09-08 11:04:09.1779 ERROR Error al obtener lista de ordenadors. Message: Incorrect syntax near the keyword 'FROM'.
+2023-09-08 11:04:28.7941 ERROR Error al obtener lista de ordenadors. Message: Incorrect syntax near the keyword 'FROM'.
+2023-09-08 11:04:29.8324 ERROR Error al obtener lista de ordenadors. Message: Incorrect syntax near the keyword 'FROM'.
+2023-09-08 11:04:31.8623 ERROR Error al obtener lista de ordenadors. Message: Incorrect syntax near the keyword 'FROM'.
+2023-09-08 11:25:03.1916 ERROR Error al obtener lista de pedidos. Message: Invalid column name 'CreditCardFacturas'.
+2023-09-08 12:47:44.2612 ERROR Error al eliminar componente. Message: There are fewer columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+2023-09-08 12:47:45.4901 ERROR Error al eliminar componente. Message: There are fewer columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+2023-09-08 12:47:47.5465 ERROR Error al eliminar componente. Message: There are fewer columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+2023-09-08 12:47:50.5686 ERROR Error al eliminar componente. Message: There are fewer columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+2023-09-08 12:56:35.1413 ERROR Error al eliminar componente. Message: There are fewer columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+2023-09-08 13:07:56.5038 ERROR Error al eliminar componente. Message: Error converting data type varchar to numeric.
+2023-09-08 13:07:57.6877 ERROR Error al eliminar componente. Message: Error converting data type varchar to numeric.
+2023-09-08 13:07:59.7436 ERROR Error al eliminar componente. Message: Error converting data type varchar to numeric.
+2023-09-08 13:08:02.8092 ERROR Error al eliminar componente. Message: Error converting data type varchar to numeric.
+2023-09-08 13:10:15.2069 ERROR Error al eliminar componente. Message: There are fewer columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+2023-09-08 13:10:16.4090 ERROR Error al eliminar componente. Message: There are fewer columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+2023-09-08 13:10:18.4455 ERROR Error al eliminar componente. Message: There are fewer columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+2023-09-08 13:10:21.4894 ERROR Error al eliminar componente. Message: There are fewer columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.

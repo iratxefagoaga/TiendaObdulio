@@ -1,0 +1,19 @@
+2023-08-09 17:47:31.2234 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-09 17:49:43.8476 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-09 17:49:54.1604 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-09 17:49:57.8443 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-09 17:51:57.5064 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-09 17:54:10.4006 DEBUG Componente eliminado. Serie: 789_XX, descripcion: Disco Duro Scan Disk
+2023-08-09 17:54:15.9934 DEBUG Componente eliminado. Serie: 789_XCD, descripcion: Procesador Intel i7
+2023-08-09 17:54:18.9651 DEBUG Componente eliminado. Serie: 879FH_T, descripcion: Banco de memoria SDRAM
+2023-08-09 17:54:22.8481 DEBUG Componente eliminado. Serie: 789_XX_3, descripcion: Disco Duro Scan Disk
+2023-08-09 17:54:26.1623 DEBUG Componente eliminado. Serie: 789_XCS, descripcion: Procesador Intel i7
+2023-08-09 17:54:29.3425 DEBUG Componente eliminado. Serie: 879FH, descripcion: Banco de memoria SDRAM
+2023-08-09 18:22:19.7729 DEBUG Ordenador eliminado. Descripcion: OrdenadorMaria
+2023-08-09 18:22:22.8947 DEBUG Ordenador eliminado. Descripcion: OrdenadorAndres
+2023-08-09 18:30:04.9445 DEBUG Ordenador eliminado. Descripcion: OrdenadorMaria
+2023-08-09 18:30:07.9542 DEBUG Ordenador eliminado. Descripcion: OrdenadorAndres
+2023-08-09 18:31:31.0525 DEBUG Ordenador eliminado. Descripcion: OrdenadorMaria
+2023-08-09 18:31:34.5498 DEBUG Ordenador eliminado. Descripcion: OrdenadorAndres
+2023-08-09 18:52:21.7443 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-09 20:02:15.3176 ERROR Error al añadir componente. Message: El componente no es valido

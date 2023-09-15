@@ -1,0 +1,55 @@
+﻿@model MVC_ComponentesCodeFirst.Models.Ordenador
+<h3>@Model.Descripcion</h3>
+<dl class="row" style="width:30%; border:3px solid;">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Precio)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Precio)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Calor)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Calor)
+    </dd>
+</dl>
+<h1>Lista de componentes</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Descripcion
+            </th>
+            <th>
+                Serie
+            </th>
+            <th>
+                Precio
+            </th>
+            <th>
+                Calor
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+
+        @{
+            System.Diagnostics.Debug.Assert(Model.Componentes != null, "Model.Componentes != null");
+        }
+        @foreach (var componente in Model.Componentes)
+        {
+            <tr>
+                @await Component.InvokeAsync("Componente", componente)
+
+                <td>
+                    <a asp-controller="Componentes" asp-action="Edit" asp-route-id="@componente.Id" title="Editar"> <img src="~/images/editar.png" height="20px" /></a> |
+                    <a asp-controller="Componentes" asp-action="Details" asp-route-id="@componente.Id" title="Detalles"><img src="~/images/detalles.png" height="20px" /></a> |
+                    <a asp-controller="Componentes" asp-action="Delete" asp-route-id="@componente.Id" title="Eliminar"><img src="~/images/eliminar.png" height="20px" /></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

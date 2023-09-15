@@ -1,0 +1,4 @@
+2023-08-02 20:17:49.2856 DEBUG HOLA
+2023-08-02 20:20:19.4263 DEBUG Componente eliminado. Serie: 879FH-L, descripcion: Banco de Memoria SDRAM
+2023-08-02 20:20:27.3808 DEBUG Componente actualizado. Serie: AAA, descripcion: AAAA
+2023-08-02 20:20:49.5758 DEBUG Componente añadido. Serie: BAKJDF, descripcion: BBB

@@ -1,0 +1,14 @@
+﻿@model MVC_ComponentesCodeFirst.Models.Ordenador
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+<h1>Detalles</h1>
+
+@await Component.InvokeAsync("OrdenadorComponente", Model.Id)
+<div>
+    <a href="javascript:void(0);" onclick="history.go(-1);" title="Volver"><img src="~/images/go-back-arrow.svg" height="20px" /></a>
+
+    <a asp-action="Edit" asp-route-id="@Model.Id" title="Editar"> <img src="~/images/editar.png" height="20px" /></a> 
+    </div>

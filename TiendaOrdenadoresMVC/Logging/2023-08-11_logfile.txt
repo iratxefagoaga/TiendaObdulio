@@ -1,0 +1,41 @@
+2023-08-11 08:47:13.0525 DEBUG Componente añadido. Serie: SDFD, descripcion: Descripcion del nuevo componente
+2023-08-11 08:47:27.8448 DEBUG Componente añadido. Serie: adsfs, descripcion: fadsf
+2023-08-11 12:46:37.5415 DEBUG Componente añadido. Serie: fasdf, descripcion: fdasdf
+2023-08-11 12:52:09.1426 DEBUG Componente añadido. Serie: asdf, descripcion: adfsa
+2023-08-11 12:53:24.5509 DEBUG Componente añadido. Serie: afdfs, descripcion: gadfg
+2023-08-11 12:55:04.8056 DEBUG Componente añadido. Serie: afda, descripcion: adfaf
+2023-08-11 13:05:03.6944 DEBUG Componente añadido. Serie: 32, descripcion: fadfa
+2023-08-11 13:06:21.5054 DEBUG Componente añadido. Serie: asdfa, descripcion: dafsdf
+2023-08-11 13:16:02.6620 DEBUG Componente añadido. Serie: dasfas, descripcion: dafsdf
+2023-08-11 13:16:03.1170 DEBUG Componente añadido. Descripcion: dafsdf
+2023-08-11 13:26:37.6296 DEBUG Componente añadido. Serie: faadf, descripcion: adfas
+2023-08-11 13:26:37.9131 DEBUG Componente añadido. Descripcion: adfas
+2023-08-11 13:28:52.6442 DEBUG Componente añadido. Serie: fadf, descripcion: fadf
+2023-08-11 14:01:08.9410 DEBUG Componente añadido. Serie: afdfsf, descripcion: fafdas
+2023-08-11 14:01:57.1290 DEBUG Componente añadido. Serie: aeff, descripcion: awefs
+2023-08-11 14:04:45.2538 DEBUG Componente añadido. Serie: afdf, descripcion: afdasdf
+2023-08-11 14:04:45.4960 DEBUG Ordenador añadido. Descripcion: afdasdf
+2023-08-11 14:13:26.1138 DEBUG Componente añadido. Serie: dfad, descripcion: prueba
+2023-08-11 14:13:26.4441 DEBUG Ordenador añadido. Descripcion: prueba
+2023-08-11 14:13:29.9471 DEBUG Componente añadido. Serie: dfad, descripcion: prueba
+2023-08-11 14:13:29.9471 DEBUG Ordenador añadido. Descripcion: prueba
+2023-08-11 14:16:03.3167 DEBUG Componente añadido. Serie: fdasdf, descripcion: fasdf
+2023-08-11 14:16:54.7443 DEBUG Ordenador añadido. Descripcion: fasdf
+2023-08-11 14:31:46.2530 DEBUG Componente añadido. Serie: fasdf, descripcion: asfsdf
+2023-08-11 14:31:46.7626 DEBUG Ordenador añadido. Descripcion: asfsdf
+2023-08-11 14:31:49.2013 DEBUG Componente añadido. Serie: fasdf, descripcion: asfsdf
+2023-08-11 14:31:49.2098 DEBUG Ordenador añadido. Descripcion: asfsdf
+2023-08-11 14:31:51.4549 DEBUG Componente añadido. Serie: fasdf, descripcion: asfsdf
+2023-08-11 14:31:51.4642 DEBUG Ordenador añadido. Descripcion: asfsdf
+2023-08-11 14:34:04.7895 DEBUG Componente añadido. Serie: GGGG, descripcion: Componente prueba
+2023-08-11 14:34:05.2045 DEBUG Ordenador añadido. Descripcion: Componente prueba
+2023-08-11 14:48:16.3086 DEBUG Componente eliminado. Serie: GGGG, descripcion: Componente prueba
+2023-08-11 16:08:28.7871 DEBUG Ordenador eliminado. Descripcion: Componente prueba
+2023-08-11 16:11:09.6255 DEBUG Ordenador eliminado. Descripcion: asfsdf
+2023-08-11 16:11:13.6390 DEBUG Ordenador eliminado. Descripcion: Ordenador
+2023-08-11 16:11:17.2221 DEBUG Ordenador eliminado. Descripcion: Descripcion
+2023-08-11 16:11:20.6891 DEBUG Ordenador eliminado. Descripcion: afdasdf
+2023-08-11 16:11:24.1898 DEBUG Ordenador eliminado. Descripcion: prueba
+2023-08-11 16:11:27.5530 DEBUG Ordenador eliminado. Descripcion: prueba
+2023-08-11 16:11:30.9232 DEBUG Ordenador eliminado. Descripcion: asfsdf
+2023-08-11 16:11:34.9453 DEBUG Ordenador eliminado. Descripcion: asfsdf

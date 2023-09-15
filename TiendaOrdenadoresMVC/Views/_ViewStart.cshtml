@@ -1,0 +1,30 @@
+﻿
+    @{
+        var routeUrl = ViewContext.RouteData.Values["Controller"]?.ToString();
+        //you can put pages' name into pages
+        System.Diagnostics.Debug.Assert(routeUrl != null, nameof(routeUrl) + " != null");
+        if (routeUrl.Contains("Home"))
+        {
+            Layout = "_LayoutInicio";
+        }
+    else if (routeUrl.Contains("Componentes"))
+    {
+        Layout = "_LayoutComponentes";
+    }
+    else if (routeUrl.Contains("Ordenadores"))
+    {
+        Layout = "_LayoutOrdenadores";
+    }
+    else if (routeUrl.Contains("Pedidos"))
+    {
+        Layout = "_LayoutPedidos";
+    }
+    else if (routeUrl.Contains("Facturas"))
+    {
+        Layout = "_LayoutFacturas";
+    }
+    else if (routeUrl.Contains("Clientes"))
+    {
+        Layout = "_LayoutClientes";
+    }
+    }

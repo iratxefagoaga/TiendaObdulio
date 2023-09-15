@@ -1,0 +1,49 @@
+2023-08-10 08:29:25.9899 DEBUG Ordenador eliminado. Descripcion: OrdenadorMaria
+2023-08-10 08:29:29.0488 DEBUG Ordenador eliminado. Descripcion: OrdenadorAndres
+2023-08-10 08:33:19.5849 DEBUG Ordenador eliminado. Descripcion: OrdenadorMaria
+2023-08-10 08:33:21.9655 DEBUG Ordenador eliminado. Descripcion: OrdenadorAndres
+2023-08-10 08:48:22.5379 DEBUG Componente eliminado. Serie: 789_XX, descripcion: Disco Duro Scan Disk
+2023-08-10 08:54:47.7735 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-10 09:05:54.0981 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-10 09:05:56.1570 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-10 09:05:59.3779 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-10 09:23:26.0860 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-10 09:35:17.0978 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-10 09:35:19.0226 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-10 12:22:20.3793 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-10 12:22:26.4973 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-10 12:24:06.8315 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-10 12:26:19.4722 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-10 12:26:19.4722 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-10 12:28:34.3402 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-10 12:28:37.6739 ERROR Error al añadir componente. Message: El componente no es valido
+2023-08-10 12:33:08.1753 DEBUG Componente añadido. Serie: adfasd, descripcion: adfafd
+2023-08-10 12:35:21.3510 DEBUG Componente añadido. Serie: adfads, descripcion: adfds
+2023-08-10 12:36:13.9900 DEBUG Componente actualizado. Serie: adfadsp, descripcion: adfds
+2023-08-10 12:36:50.0864 DEBUG Componente eliminado. Serie: adfadsp, descripcion: adfds
+2023-08-10 12:37:20.3740 DEBUG Componente eliminado. Serie: adfasd, descripcion: adfafd
+2023-08-10 12:41:46.7095 DEBUG Componente añadido. Serie: agf, descripcion: afgdf
+2023-08-10 12:42:50.7854 DEBUG Componente añadido. Serie: sfgsfd, descripcion: sdgsd
+2023-08-10 12:51:33.0451 DEBUG Ordenador añadido. Descripcion: Ordenador
+2023-08-10 12:52:45.8520 DEBUG Componente añadido. Serie: CKDLF, descripcion: Procesador
+2023-08-10 12:57:01.6665 DEBUG Componente eliminado. Serie: CKDLF, descripcion: Procesador
+2023-08-10 13:09:37.0671 DEBUG Componente añadido. Serie: sadfs, descripcion: adf
+2023-08-10 13:19:03.6126 DEBUG Componente añadido. Serie: adfs, descripcion: adfs
+2023-08-10 13:20:58.9711 DEBUG Componente añadido. Serie: adfs, descripcion: adfs
+2023-08-10 13:22:00.1141 DEBUG Componente añadido. Serie: adfsdf, descripcion: Descripcion
+2023-08-10 13:22:00.1820 DEBUG Ordenador añadido. Descripcion: 
+2023-08-10 13:25:13.3349 DEBUG Componente añadido. Serie: sdfa, descripcion: dfsa
+2023-08-10 13:25:44.3556 DEBUG Ordenador añadido. Descripcion: 
+2023-08-10 13:28:01.6976 DEBUG Ordenador eliminado. Descripcion: 
+2023-08-10 13:28:08.1218 DEBUG Ordenador eliminado. Descripcion: 
+2023-08-10 14:02:53.1011 DEBUG Componente añadido. Serie: asdf, descripcion: Descripcion
+2023-08-10 14:16:32.2568 DEBUG Componente añadido. Serie: gfsdfg, descripcion: wrwet
+2023-08-10 14:17:25.3181 DEBUG Componente añadido. Serie: gfsdfg, descripcion: wrwet
+2023-08-10 14:19:42.8814 DEBUG Componente añadido. Serie: afs, descripcion: adfs
+2023-08-10 14:19:52.5868 DEBUG Componente eliminado. Serie: afs, descripcion: adfs
+2023-08-10 14:25:28.9575 DEBUG Componente añadido. Serie: sdfas, descripcion: sadfasd
+2023-08-10 14:28:15.5975 DEBUG Ordenador añadido. Descripcion: Descripcion
+2023-08-10 14:28:34.2245 DEBUG Componente añadido. Serie: asdf, descripcion: asdf
+2023-08-10 14:28:56.4455 DEBUG Componente añadido. Serie: dfasdf, descripcion: asdf
+2023-08-10 14:41:25.4266 DEBUG Componente actualizado. Serie: dfasdf, descripcion: asdf
+2023-08-10 14:42:18.1025 DEBUG Componente actualizado. Serie: Prueba, descripcion: Prueba

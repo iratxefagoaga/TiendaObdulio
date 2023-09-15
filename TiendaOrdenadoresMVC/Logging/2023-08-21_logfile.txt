@@ -1,0 +1,4 @@
+2023-08-21 11:44:38.6064 DEBUG Ordenador eliminado. Nombre: Juan
+2023-08-21 11:44:38.7723 DEBUG Ordenador eliminado. Nombre: Maria
+2023-08-21 11:44:38.7783 DEBUG Ordenador eliminado. Nombre: Mario
+2023-08-21 11:53:59.6122 DEBUG Componente añadido. Serie: fasdf, descripcion: adfsdf

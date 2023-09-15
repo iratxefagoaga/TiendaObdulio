@@ -1,0 +1,48 @@
+﻿@{
+    Layout = "_Layout";
+}
+@section Navigation{
+    <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">
+                <p>Inicio</p>
+            </a>
+        </li>
+
+        <li class="nav-item active">
+            <a class="nav-link" asp-area="" asp-controller="Componentes" asp-action="Index">
+                <p>Componentes</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-area="" asp-controller="Ordenadores" asp-action="Index">
+                <p>Ordenadores</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-area="" asp-controller="Pedidos" asp-action="Index">
+                <p>Pedidos</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-area="" asp-controller="Facturas" asp-action="Index">
+                <p>Facturas</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-area="" asp-controller="Clientes" asp-action="Index">
+                <p>Clientes</p>
+            </a>
+        </li>
+    </ul>
+}
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)

@@ -1,0 +1,1 @@
+2023-08-04 11:56:14.8201 DEBUG Componente actualizado. Serie: Procesador789Xcd, descripcion: Procesador Intel i7
