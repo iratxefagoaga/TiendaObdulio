@@ -1,0 +1,1 @@
+2023-09-19 12:19:37.8105 ERROR Error al obtener lista de clientes. Message: The ConnectionString property has not been initialized.

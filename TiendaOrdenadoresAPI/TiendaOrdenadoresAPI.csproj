@@ -4,11 +4,15 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/c6ba0331-ae8e-4849-9eea-3514e8c6de1d/resourceGroups/20230914/providers/microsoft.insights/components/tiendaobdulio</ApplicationInsightsResourceId>
+    <UserSecretsId>96c4fdcc-22a7-412a-84b3-b1c2e97c5856</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
 	  <!-- ReSharper disable once VulnerablePackage -->
+	  <PackageReference Include="Azure.Storage.Blobs" Version="12.18.0" />
 	  <PackageReference Include="EntityFramework" Version="6.4.4" />
+	  <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.10">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

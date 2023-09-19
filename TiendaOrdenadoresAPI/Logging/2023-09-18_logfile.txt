@@ -1,0 +1,3 @@
+2023-09-18 10:09:59.4926 ERROR Error al obtener lista de clientes. Message: Login failed for user 'cloudadmin'.
+2023-09-18 10:14:32.9213 ERROR Error al obtener lista de clientes. Message: Invalid object name 'Clientes'.
+2023-09-18 11:02:21.7635 ERROR Error al obtener lista de clientes. Message: Login failed for user 'cloudadmin'.

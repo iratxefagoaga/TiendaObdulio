@@ -1,0 +1,2 @@
+2023-09-18 11:04:39.2686 DEBUG Ordenador añadido. Descripcion: OrdenadorNuevo
+2023-09-18 11:04:53.4482 DEBUG Ordenador eliminado. Descripcion: OrdenadorNuevo
