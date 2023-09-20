@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using MVC_ComponentesCodeFirst.Services.Interfaces;
 
 namespace MVC_ComponentesCodeFirst.Models
 {
-    public class Ordenador
+    public class Ordenador : IEntity
     {
         public int Id { get; set; }
 

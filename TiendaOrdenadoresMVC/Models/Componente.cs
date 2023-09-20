@@ -1,9 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Ejercicio_ordenadores.Builders.Componentes;
+using MVC_ComponentesCodeFirst.Services.Interfaces;
 
 namespace MVC_ComponentesCodeFirst.Models
 {
-    public class Componente
+    public class Componente : IEntity
     {
         public int Id { get; set; }
         [Required]

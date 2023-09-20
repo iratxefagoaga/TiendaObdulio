@@ -4,9 +4,11 @@ using MVC_ComponentesCodeFirst.Logging;
 using MVC_ComponentesCodeFirst.Models;
 using MVC_ComponentesCodeFirst.Services.API_Repositories;
 using MVC_ComponentesCodeFirst.Services.Interfaces;
+using MVC_ComponentesCodeFirst.Services.Repositories;
 using NLog;
 using Polly;
 using Polly.Extensions.Http;
+using System.Security.Policy;
 
 namespace MVC_ComponentesCodeFirst
 {
@@ -26,6 +28,9 @@ namespace MVC_ComponentesCodeFirst
             // Create the retry policy we want
             var retryPolicy = HttpPolicyExtensions.HandleTransientHttpError() // HttpRequestException, 5XX and 408
                 .WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt));
+            
+            var MyConfig = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
+            var url = MyConfig.GetValue<string>("AppSettings:urlApi");
 
             // register the Service and apply the retry policy
             builder.Services.AddHttpClient<IClienteRepository, ClienteApiRepository>(o =>
@@ -49,12 +54,12 @@ namespace MVC_ComponentesCodeFirst
 
             var app = builder.Build();
 
-            using (var scope = app.Services.CreateScope())
-            {
-                var services = scope.ServiceProvider;
+            //using (var scope = app.Services.CreateScope())
+            //{
+            //    var services = scope.ServiceProvider;
 
-                SeedData.Initialize(services.GetRequiredService<IComponenteRepository>(), services.GetRequiredService<IOrdenadorRepository>(), services.GetRequiredService<IPedidoRepository>(), services.GetRequiredService<IFacturasRepository>(), services.GetRequiredService<IClienteRepository>());
-            }
+            //    SeedData.Initialize(services.GetRequiredService<IComponenteRepository>(), services.GetRequiredService<IOrdenadorRepository>(), services.GetRequiredService<IPedidoRepository>(), services.GetRequiredService<IFacturasRepository>(), services.GetRequiredService<IClienteRepository>());
+            //}
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

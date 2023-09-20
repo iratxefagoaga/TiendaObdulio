@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using MVC_ComponentesCodeFirst.Services.Interfaces;
 
 namespace MVC_ComponentesCodeFirst.Models
 {
-    public class Pedido
+    public class Pedido : IEntity
     {
         private DateTime _fecha;
         public int Id { get; set; }
