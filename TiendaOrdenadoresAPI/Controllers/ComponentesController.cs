@@ -9,9 +9,9 @@ namespace TiendaOrdenadoresAPI.Controllers
     [ApiController]
     public class ComponentesController : ControllerBase
     {
-        private readonly IComponenteRepository _componenteRepository;
+        private readonly IGenericRepositoryAdo<Componente> _componenteRepository;
 
-        public ComponentesController(IComponenteRepository repository)
+        public ComponentesController(IGenericRepositoryAdo<Componente> repository)
         {
             _componenteRepository = repository;
         }

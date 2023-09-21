@@ -7,7 +7,7 @@ using Pedido = TiendaOrdenadoresAPI.Models.Pedido;
 
 namespace TiendaOrdenadoresAPI.Services.Repositories
 {
-    public class PedidoAdoRepositroy : IPedidoRepository
+    public class PedidoAdoRepositroy : IGenericRepositoryAdo<Pedido>
     {
         private static readonly IConfigurationRoot Configuration = new ConfigurationBuilder()
             .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
@@ -224,7 +224,7 @@ namespace TiendaOrdenadoresAPI.Services.Repositories
             }
         }
 
-        public Pedido GetById(int? id)
+        public Pedido GetById(int id)
         {
             Pedido pedido = new();
             using var con = new SqlConnection(_connectionString);
