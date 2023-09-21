@@ -8,7 +8,7 @@ using Componente = MVC_ComponentesCodeFirst.Models.Componente;
 
 namespace MVC_ComponentesCodeFirst.Services.Repositories
 {
-    public class ComponenteRepository : IComponenteRepository
+    public class ComponenteRepository : IGenericRepository<Componente>
     {
         private readonly OrdenadoresContext _context;
         private readonly FactoriaContextos _factoriaDeContextos = new();
@@ -85,7 +85,7 @@ namespace MVC_ComponentesCodeFirst.Services.Repositories
 
             return Task.FromResult(_context.Componentes.Any() ? _context.Componentes.Include(c => c.Ordenador).ToList() : new List<Componente>());
         }
-        public Task<Componente?> GetById(int id)
+        public Task<Componente?> GetById(int? id)
         {
             var componente = _context.Componentes
                     .Include(c => c.Ordenador)

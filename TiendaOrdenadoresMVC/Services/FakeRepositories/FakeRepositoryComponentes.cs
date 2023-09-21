@@ -69,7 +69,7 @@ namespace MVC_ComponentesCodeFirst.Services.FakeRepositories
         {
             if (componente.Id == 0)
             {
-                throw new Exception("Compnente no valido");
+                throw new Exception("Componente no valido");
             }
             _componentes.Add(componente);
             return Task.CompletedTask;
@@ -107,7 +107,7 @@ namespace MVC_ComponentesCodeFirst.Services.FakeRepositories
             return Task.CompletedTask;
         }
 
-        public Task<Componente?> GetById(int id)
+        public Task<Componente?> GetById(int? id)
         {
             return Task.FromResult(_componentes.Find(p => p.Id == id));
         }

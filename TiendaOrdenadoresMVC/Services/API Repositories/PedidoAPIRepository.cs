@@ -63,14 +63,14 @@ namespace MVC_ComponentesCodeFirst.Services.API_Repositories
 
         public SelectList ListaClientesId(int id = 0)
         {
-            IClienteRepository repositorioCliente = new ClienteApiRepository(_httpClient);
+            IGenericRepository<Cliente> repositorioCliente = new ClienteApiRepository(_httpClient);
             return id == 0 ? new SelectList(repositorioCliente.All().Result, "Id", "Apellido") : new SelectList(repositorioCliente.All().Result, "Id", "Apellido", id);
 
         }
 
         public SelectList ListaFacturasId(int id = 0)
         {
-            IFacturasRepository facturasRepository = new FacturaApiRepository(_httpClient);
+            IGenericRepository<Factura> facturasRepository = new FacturaApiRepository(_httpClient);
             return id == 0 ? new SelectList(facturasRepository.All().Result, "Id", "Descripcion") : new SelectList(facturasRepository.All().Result, "Id", "Descripcion", id);
 
         }

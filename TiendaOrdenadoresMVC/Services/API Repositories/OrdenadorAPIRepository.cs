@@ -1,13 +1,12 @@
-﻿using System.Security.Policy;
-using System.Text;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
 using MVC_ComponentesCodeFirst.Models;
 using MVC_ComponentesCodeFirst.Services.Interfaces;
 using Newtonsoft.Json;
+using System.Text;
 
 namespace MVC_ComponentesCodeFirst.Services.API_Repositories
 {
-    public class OrdenadorApiRepository :IOrdenadorRepository
+    public class OrdenadorApiRepository : IOrdenadorRepository
     {
         private readonly HttpClient _httpClient;
         private readonly string _url;
@@ -54,12 +53,13 @@ namespace MVC_ComponentesCodeFirst.Services.API_Repositories
 
         }
 
-        public async Task<Ordenador?> GetById(int id)
+        public async Task<Ordenador?> GetById(int? id)
         {
             using var response = await _httpClient.GetAsync(_url+"/api/Ordenadores/" + id);
             string apiResponse = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<Ordenador>(apiResponse);
         }
+
 
         public SelectList PedidosLista(Ordenador? ordenador = null)
         {

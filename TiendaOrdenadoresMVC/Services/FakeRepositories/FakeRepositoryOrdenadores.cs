@@ -100,6 +100,11 @@ namespace MVC_ComponentesCodeFirst.Services.FakeRepositories
             return Task.CompletedTask;
         }
 
+        public Task<List<Ordenador>> All()
+        {
+            return Task.FromResult(_ordenadores);
+        }
+
         public Task Delete(int id)
         {
             if (GetById(id).Result ==null)
@@ -107,6 +112,17 @@ namespace MVC_ComponentesCodeFirst.Services.FakeRepositories
             _ordenadores.RemoveAll(p => p.Id == id);
             return Task.CompletedTask;
         }
+
+        public Task DeleteRange(int[] deleteInputs)
+        {
+            foreach (var id in deleteInputs)
+            {
+                _ordenadores.RemoveAll(p => p.Id == id);
+            }
+
+            return Task.CompletedTask;
+        }
+
         public Task Edit(Ordenador ordenador)
         {
             var ordenadorAntiguo = GetById(ordenador.Id);
@@ -123,29 +139,15 @@ namespace MVC_ComponentesCodeFirst.Services.FakeRepositories
             return Task.CompletedTask;
         }
 
-        public Task<Ordenador?> GetById(int id)
+        public Task<Ordenador?> GetById(int? id)
         {
             return Task.FromResult(_ordenadores.Find(p => p.Id == id));
         }
 
-        public Task<List<Ordenador>> All()
-        {
-            return Task.FromResult(_ordenadores);
-        }
 
         public SelectList PedidosLista(Ordenador? ordenador = null)
         {
             return new SelectList(_pedidosLista);
-        }
-
-        public Task DeleteRange(int[] deleteInputs)
-        {
-            foreach (var id in deleteInputs)
-            {
-                _ordenadores.RemoveAll(p => p.Id == id);
-            }
-
-            return Task.CompletedTask;
         }
     }
 }
