@@ -9,9 +9,9 @@ namespace TiendaOrdenadoresAPI.Controllers
     [ApiController]
     public class ClientesController : ControllerBase
     {
-        private readonly IClienteRepository _clienteRepository;
+        private readonly IGenericRepositoryAdo<Cliente> _clienteRepository;
 
-        public ClientesController(IClienteRepository repository)
+        public ClientesController(IGenericRepositoryAdo<Cliente> repository)
         {
             _clienteRepository = repository;
         }

@@ -9,9 +9,9 @@ namespace TiendaOrdenadoresAPI.Controllers
     [ApiController]
     public class PedidosController : ControllerBase
     {
-        private readonly IPedidoRepository _pedidoRepository;
+        private readonly IGenericRepositoryAdo<Pedido> _pedidoRepository;
 
-        public PedidosController(IPedidoRepository repository)
+        public PedidosController(IGenericRepositoryAdo<Pedido> repository)
         {
             _pedidoRepository = repository;
         }

@@ -6,7 +6,7 @@ using TiendaOrdenadoresAPI.Services.Interfaces;
 
 namespace TiendaOrdenadoresAPI.Services.Repositories
 {
-    public class ClienteAdoRepository : IClienteRepository
+    public class ClienteAdoRepository : IGenericRepositoryAdo<Cliente>
     {
         private static readonly IConfigurationRoot Configuration = new ConfigurationBuilder()
             .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
@@ -132,7 +132,7 @@ namespace TiendaOrdenadoresAPI.Services.Repositories
             }
         }
 
-        public Cliente GetById(int? id)
+        public Cliente GetById(int id)
         {
             try
             {
