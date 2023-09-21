@@ -6,7 +6,7 @@ using TiendaOrdenadoresAPI.Services.Interfaces;
 
 namespace TiendaOrdenadoresAPI.Services.Repositories
 {
-    public class OrdenadoresAdoRepository : IOrdenadorRepository
+    public class OrdenadoresAdoRepository : IGenericRepositoryAdo<Ordenador>
     {
         private static readonly IConfigurationRoot Configuration = new ConfigurationBuilder()
             .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)

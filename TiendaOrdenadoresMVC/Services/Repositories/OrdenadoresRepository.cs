@@ -7,7 +7,7 @@ using MVC_ComponentesCodeFirst.Services.Interfaces;
 
 namespace MVC_ComponentesCodeFirst.Services.Repositories
 {
-    public class OrdenadoresRepository : IOrdenadorRepository
+    public class OrdenadoresRepository : IGenericRepository<Ordenador>
     {
         private readonly OrdenadoresContext _context;
         private readonly FactoriaContextos _factoriaDeContextos = new();
@@ -91,7 +91,7 @@ namespace MVC_ComponentesCodeFirst.Services.Repositories
             }
         }
 
-        public async Task<Ordenador?> GetById(int id)
+        public async Task<Ordenador?> GetById(int? id)
         {
             return _context.Ordenadores.Any()
                 ? await _context.Ordenadores

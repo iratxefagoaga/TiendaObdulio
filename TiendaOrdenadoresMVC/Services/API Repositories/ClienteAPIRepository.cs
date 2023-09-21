@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MVC_ComponentesCodeFirst.Services.API_Repositories
 {
-    public class ClienteApiRepository : IClienteRepository
+    public class ClienteApiRepository : IGenericRepository<Cliente>
     {
 
         private readonly HttpClient _httpClient;

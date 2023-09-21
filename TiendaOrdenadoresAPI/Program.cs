@@ -3,6 +3,7 @@ using NLog;
 using TiendaOrdenadoresAPI.Data;
 using TiendaOrdenadoresAPI.Logging;
 using TiendaOrdenadoresAPI.Services.FakeRepositories;
+using TiendaOrdenadoresAPI.Models;
 using TiendaOrdenadoresAPI.Services.Interfaces;
 using TiendaOrdenadoresAPI.Services.Repositories;
 
@@ -15,12 +16,11 @@ builder.Services.AddDbContext<OrdenadoresContext>(options =>
 LogManager.Setup().LoadConfigurationFromFile(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
 builder.Services.AddSingleton<ILoggerManager, LoggerManager>();
 
-builder.Services.AddScoped<IComponenteRepository, ComponenteAdoRepository>();
-builder.Services.AddScoped<IOrdenadorRepository, OrdenadoresAdoRepository>();
-builder.Services.AddScoped<IClienteRepository, ClienteAdoRepository>();
-builder.Services.AddScoped<IPedidoRepository, PedidoAdoRepositroy>();
-builder.Services.AddScoped<IFacturasRepository, FacturasAdoRepository>();
-
+builder.Services.AddScoped<IGenericRepositoryAdo<Componente>, ComponenteAdoRepository>();
+builder.Services.AddScoped<IGenericRepositoryAdo<Ordenador>, OrdenadoresAdoRepository>();
+builder.Services.AddScoped<IGenericRepositoryAdo<Cliente>, ClienteAdoRepository>();
+builder.Services.AddScoped<IGenericRepositoryAdo<Pedido>, PedidoAdoRepositroy>();
+builder.Services.AddScoped<IGenericRepositoryAdo<Factura>, FacturasAdoRepository>();
 // Add services to the container.
 
 builder.Services.AddControllers();

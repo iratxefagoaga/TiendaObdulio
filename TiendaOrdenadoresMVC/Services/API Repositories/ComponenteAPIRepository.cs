@@ -1,13 +1,12 @@
-﻿using System.Security.Policy;
-using System.Text;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
 using MVC_ComponentesCodeFirst.Models;
 using MVC_ComponentesCodeFirst.Services.Interfaces;
 using Newtonsoft.Json;
+using System.Text;
 
 namespace MVC_ComponentesCodeFirst.Services.API_Repositories
 {
-    public class ComponenteApiRepository :IComponenteRepository
+    public class ComponenteApiRepository : IComponenteRepository
     {
         private readonly HttpClient _httpClient;
         private readonly string _url;
@@ -60,7 +59,7 @@ namespace MVC_ComponentesCodeFirst.Services.API_Repositories
 
         }
 
-        public async Task<Componente?> GetById(int id)
+        public async Task<Componente?> GetById(int? id)
         {
             using var response = await _httpClient.GetAsync(_url+"/api/Componentes/" + id);
             string apiResponse = await response.Content.ReadAsStringAsync();

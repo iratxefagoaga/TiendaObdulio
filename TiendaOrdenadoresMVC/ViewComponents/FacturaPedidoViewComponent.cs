@@ -1,12 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MVC_ComponentesCodeFirst.Models;
 using MVC_ComponentesCodeFirst.Services.Interfaces;
 
 namespace MVC_ComponentesCodeFirst.ViewComponents
 {
     public class FacturaPedidoViewComponent : ViewComponent
     {
-        private readonly IFacturasRepository _facturasRepository;
-        public FacturaPedidoViewComponent(IFacturasRepository facturasRepository)
+        private readonly IGenericRepository<Factura> _facturasRepository;
+        public FacturaPedidoViewComponent(IGenericRepository<Factura> facturasRepository)
         {
             _facturasRepository = facturasRepository;
         }

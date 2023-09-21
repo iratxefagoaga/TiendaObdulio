@@ -7,8 +7,8 @@ namespace MVC_ComponentesCodeFirst.Controllers
     public class FacturasController : Controller
     {
 
-        private readonly IFacturasRepository _repositorioFacturas;
-        public FacturasController(IFacturasRepository repositorio)
+        private readonly IGenericRepository<Factura> _repositorioFacturas;
+        public FacturasController(IGenericRepository<Factura> repositorio)
         {
             _repositorioFacturas = repositorio;
         }

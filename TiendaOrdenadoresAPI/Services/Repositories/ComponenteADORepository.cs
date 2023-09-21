@@ -7,7 +7,7 @@ using Componente = TiendaOrdenadoresAPI.Models.Componente;
 
 namespace TiendaOrdenadoresAPI.Services.Repositories
 {
-    public class ComponenteAdoRepository : IComponenteRepository
+    public class ComponenteAdoRepository : IGenericRepositoryAdo<Componente>
     {
         private static readonly IConfigurationRoot Configuration = new ConfigurationBuilder()
             .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
@@ -158,7 +158,7 @@ namespace TiendaOrdenadoresAPI.Services.Repositories
             }
         }
 
-        public Componente GetById(int id)
+        public Componente? GetById(int id)
         {
             Componente componente = new();
             using var con = new SqlConnection(_connectionString);

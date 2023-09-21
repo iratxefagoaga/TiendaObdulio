@@ -1,12 +1,11 @@
-﻿using System.Security.Policy;
-using System.Text;
-using MVC_ComponentesCodeFirst.Models;
+﻿using MVC_ComponentesCodeFirst.Models;
 using MVC_ComponentesCodeFirst.Services.Interfaces;
 using Newtonsoft.Json;
+using System.Text;
 
 namespace MVC_ComponentesCodeFirst.Services.API_Repositories
 {
-    public class FacturaApiRepository :IFacturasRepository
+    public class FacturaApiRepository : IGenericRepository<Factura>
     {
         private readonly HttpClient _httpClient;
         private readonly string _url;
