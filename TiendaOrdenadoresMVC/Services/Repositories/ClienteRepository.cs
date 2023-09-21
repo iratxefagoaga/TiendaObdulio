@@ -6,7 +6,7 @@ using MVC_ComponentesCodeFirst.Services.Interfaces;
 
 namespace MVC_ComponentesCodeFirst.Services.Repositories
 {
-    public class ClienteRepository : IClienteRepository
+    public class ClienteRepository : IGenericRepository<Cliente>
     {
         private readonly OrdenadoresContext _context;
         private readonly FactoriaContextos _factoriaDeContextos = new();

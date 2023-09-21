@@ -3,7 +3,7 @@ using MVC_ComponentesCodeFirst.Services.Interfaces;
 
 namespace MVC_ComponentesCodeFirst.Services.FakeRepositories
 {
-    public class FakeRepositoryClientes : IClienteRepository
+    public class FakeRepositoryClientes : IGenericRepository<Cliente>
     {
         private readonly List<Cliente> _clientes = new();
 

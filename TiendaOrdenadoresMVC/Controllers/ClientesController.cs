@@ -6,9 +6,9 @@ namespace MVC_ComponentesCodeFirst.Controllers
 {
     public class ClientesController : Controller
     {
-        private readonly IClienteRepository _repositoryCliente;
+        private readonly IGenericRepository<Cliente> _repositoryCliente;
 
-        public ClientesController(IClienteRepository repositorio)
+        public ClientesController(IGenericRepository<Cliente> repositorio)
         {
             _repositoryCliente = repositorio;
         }

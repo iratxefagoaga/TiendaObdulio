@@ -8,7 +8,7 @@ using Pedido = MVC_ComponentesCodeFirst.Models.Pedido;
 
 namespace MVC_ComponentesCodeFirst.Services.Repositories
 {
-    public class PedidoRepositroy : IPedidoRepository
+    public class PedidoRepositroy : IGenericRepository<Pedido>
     {
         private readonly OrdenadoresContext _context;
         private readonly FactoriaContextos _factoriaDeContextos = new();

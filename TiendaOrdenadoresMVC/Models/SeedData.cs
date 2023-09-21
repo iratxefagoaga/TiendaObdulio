@@ -7,8 +7,8 @@ namespace MVC_ComponentesCodeFirst.Models
     public class SeedData
     {
         public static async void Initialize(IComponenteRepository componenteRepository, IOrdenadorRepository ordenadorRepository,
-            IPedidoRepository pedidoRepository, IFacturasRepository facturasRepository,
-            IClienteRepository clienteRepository)
+            IPedidoRepository pedidoRepository, IGenericRepository<Factura> facturasRepository,
+            IGenericRepository<Cliente> clienteRepository)
         {
             //Look for facturas
             if (facturasRepository.All().Result.Any())

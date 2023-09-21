@@ -33,7 +33,7 @@ namespace MVC_ComponentesCodeFirst
             var url = MyConfig.GetValue<string>("AppSettings:urlApi");
 
             // register the Service and apply the retry policy
-            builder.Services.AddHttpClient<IClienteRepository, ClienteApiRepository>(o =>
+            builder.Services.AddHttpClient<IGenericRepository<Cliente>, ClienteApiRepository>(o =>
                     o.BaseAddress = new Uri("https://localhost:7135/api/"))
                 .AddPolicyHandler(retryPolicy);
             builder.Services.AddHttpClient<IComponenteRepository, ComponenteApiRepository>(o =>
@@ -45,7 +45,7 @@ namespace MVC_ComponentesCodeFirst
             builder.Services.AddHttpClient<IPedidoRepository, PedidoApiRepository>(o =>
                     o.BaseAddress = new Uri("https://localhost:7135/api/"))
                 .AddPolicyHandler(retryPolicy);
-            builder.Services.AddHttpClient<IFacturasRepository, FacturaApiRepository>(o =>
+            builder.Services.AddHttpClient<IGenericRepository<Factura>, FacturaApiRepository>(o =>
                     o.BaseAddress = new Uri("https://localhost:7135/api/"))
                 .AddPolicyHandler(retryPolicy);
 

@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
 using MVC_ComponentesCodeFirst.Models;
 using MVC_ComponentesCodeFirst.Services.Interfaces;
-using MVC_ComponentesCodeFirst.Services.Repositories;
 using Newtonsoft.Json;
 using System.Text;
 
