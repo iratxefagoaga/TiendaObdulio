@@ -6,7 +6,7 @@ using TiendaOrdenadoresAPI.Services.Interfaces;
 
 namespace TiendaOrdenadoresAPI.Services.Repositories
 {
-    public class FacturasAdoRepository : IFacturasRepository
+    public class FacturasAdoRepository : IGenericRepositoryAdo<Factura>
     {
         private static readonly IConfigurationRoot Configuration = new ConfigurationBuilder()
            .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
@@ -249,7 +249,7 @@ namespace TiendaOrdenadoresAPI.Services.Repositories
             }
         }
 
-        public Factura GetById(int? id)
+        public Factura GetById(int id)
         {
             Factura factura = new();
             using var con = new SqlConnection(_connectionString);

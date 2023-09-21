@@ -9,9 +9,9 @@ namespace TiendaOrdenadoresAPI.Controllers
     [ApiController]
     public class FacturasController : ControllerBase
     {
-        private readonly IFacturasRepository _facturasRepository;
+        private readonly IGenericRepositoryAdo<Factura> _facturasRepository;
 
-        public FacturasController(IFacturasRepository repository)
+        public FacturasController(IGenericRepositoryAdo<Factura> repository)
         {
             _facturasRepository = repository;
         }
