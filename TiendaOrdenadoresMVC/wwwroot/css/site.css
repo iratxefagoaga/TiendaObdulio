@@ -14,7 +14,8 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: #FAEEFF;
 }
 a.my-class {
     color: black;
@@ -138,19 +139,27 @@ a.my-class {
     display:flex;
     vertical-align:central;
 }
+
+table {
+    background-color: white
+}
+
 footer {
-    background-color: white;
+    background-color: #FAEEFF;
     position: absolute;
     bottom: 0;
     width: 100%;
     color: black;
 }
+
 .navbar-nav > .active > a {
     border-bottom: 4px solid currentColor;
+    background-color: #FAEEFF
 }
 
 .nav-item > a:hover {
     border-bottom: 4px solid currentColor;
+    background-color: #FAEEFF
 }
 
 
