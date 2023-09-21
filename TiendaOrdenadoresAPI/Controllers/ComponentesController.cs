@@ -5,7 +5,6 @@ using TiendaOrdenadoresAPI.Services.Interfaces;
 
 namespace TiendaOrdenadoresAPI.Controllers
 {
-    //comentario
     [Route("api/[controller]")]
     [ApiController]
     public class ComponentesController : ControllerBase
