@@ -15,17 +15,20 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-color: #FAEEFF;
+    background-color: #ecbbf2;
+    color: black;
 }
+
 a.my-class {
     color: black;
     float:right;
     font-weight: bold;
     text-decoration: none;
-    background-color: lightgrey;
+    background-color: #9d9d9d;
     border-radius: 25px;
     padding:10px;
 }
+
 .imageButton {
     background-color: white;
     border: thin;
@@ -141,25 +144,43 @@ a.my-class {
 }
 
 table {
-    background-color: white
+    background-color: #e5d1e8
 }
 
 footer {
-    background-color: #FAEEFF;
     position: absolute;
     bottom: 0;
     width: 100%;
-    color: black;
 }
 
 .navbar-nav > .active > a {
     border-bottom: 4px solid currentColor;
-    background-color: #FAEEFF
+    background-color: #ecbbf2;
+    color: black;
 }
 
 .nav-item > a:hover {
     border-bottom: 4px solid currentColor;
-    background-color: #FAEEFF
+    background-color: #ecbbf2;
+    color: black;
 }
 
+/**/
+.btn-dark {
+    height: 30px;
+    width: 35px;
+    background: #86588b;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.oscuro {
+    background-color: #86588b;
+    color: white;
+}
