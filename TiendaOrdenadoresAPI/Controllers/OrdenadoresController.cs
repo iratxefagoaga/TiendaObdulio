@@ -9,9 +9,9 @@ namespace TiendaOrdenadoresAPI.Controllers
     [ApiController]
     public class OrdenadoresController : ControllerBase
     {
-        private readonly IOrdenadorRepository _ordenadorRepository;
+        private readonly IGenericRepositoryAdo<Ordenador> _ordenadorRepository;
 
-        public OrdenadoresController(IOrdenadorRepository repository)
+        public OrdenadoresController(IGenericRepositoryAdo<Ordenador> repository)
         {
             _ordenadorRepository = repository;
         }
