@@ -155,17 +155,16 @@ footer {
 
 .navbar-nav > .active > a {
     border-bottom: 4px solid currentColor;
-    background-color: #ecbbf2;
+    background-color: #d2a4d8;
     color: black;
 }
 
 .nav-item > a:hover {
     border-bottom: 4px solid currentColor;
-    background-color: #ecbbf2;
+    background-color: #d2a4d8;
     color: black;
 }
 
-/**/
 .btn-dark {
     height: 30px;
     width: 35px;
